@@ -5,6 +5,7 @@ app_name = 'contact' #name space para nao ter conflitos entre os nomes !mente ex
 
 
 urlpatterns = [
+
+    path("<int:contact_id>/", views.contact, name='contact'),
     path("", views.index, name='index'),
-    
     ]
