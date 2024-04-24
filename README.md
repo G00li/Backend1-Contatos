@@ -1,4 +1,6 @@
+
 # ContactKeeper 📞 📧 🔐
+
 
 Durante muitos séculos, a comunicação por escrita apenas existiu através de cartas registradas somadas a uma longa espera para ser entregue ao destinatário. 
 Já nos tempos atuais, grande parte da nossa comunicação se deve através da internet, através de aplicativos de mensagens, redes sociais e emails. Em que garantem uma entrega quase momentânea ao destinatário. 
@@ -37,20 +39,20 @@ Outros dois pontos cruciais para minha escolha, foi a fácil administração do 
 
 ## Como utilizar a aplicação: 
 
-Caso tenha utilizador: 
-1. **Login** 
-	Ao entrar na aplicação, será requisitado seu login e password para que entre no seu respectivo perfil de usuário e obtenha todos os seus dados 
-	
-2. **Pesquisar contato desejado** 
-	Ao aceder seu perfil, você poderá pesquisar o contato desejado e, caso encontre, conseguirá aceder a informação
-	
-3. **Criar novo contato**
-	Caso queira adicionar um novo contato na sua lista de contatos, basta preencher um formulário com o nome, apelido, telemóvel, email (opcional) e, caso queira, poderá não só adicionar uma descrição para se recordar de onde reconhece aquela pessoa, como também poderá categorizá-lo com uma tag já existente ou então gerar uma nova. 
-	Além disso, será salvo a data e a hora da criação daquele contato específico. 
-	
-4. **Deletar Contato** 
-	O utilizador poderá excluir um contato ao aceder suas informações. 
+Ao iniciar o seu ContactKeeper será exibido todos os seus contatos salvos. 
 
-O ContactKeeper também permite ao usuário organizar seus contatos por nome, categoria e telemóvel. 
+#### Na nave bar : 
+-  Temos o nome da nossa aplicação que também funciona como um botão de Home. 
+- Temos a barra de pesquisa, onde o utilizador pode inserir nome, apelido, telemóvel ou o email desejado. 
 
+#### Na lista de contatos: 
+É onde será exibido todos os seus contatos, divididos em 5 campos.
+1. **ID** -> Onde será informado a ordem de registros que o contato foi criado. Por padrão, será exibido o ultimo contato adicionado primeiro na lista de contatos
+2. **O primeiro nome** -> Nome em que o utilizador cadastrou o contato
+3. **Apelido** -> Apelido que o utilizador cadastrou o contato
+4. **Telemóvel** -> Exibe o telemóvel do contato
+5. **Email** -> Exibe o email do contato 
 
+## Licença MIT
+
+Este projeto tem a licença fornecida através do [MIT License](https://opensource.org/license/mit)

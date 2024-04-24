@@ -33,7 +33,7 @@ def contact(request,contact_id):
     )
 
 def search(request):
-    search_value = request.GET.get('q')
+    search_value = request.GET.get('q', '') 
 
     if search_value == '':
         return redirect('contact:index') #Verifica se o valor foi enviado, se nao retorna para pagina incial 
@@ -43,7 +43,7 @@ def search(request):
             Q(last_name__icontains=search_value)|
             Q(phone__icontains=search_value)|
             Q(email__icontains=search_value)
-        ).order_by('-id')
+        )
 
     context = {
         'contacts': contacts,
