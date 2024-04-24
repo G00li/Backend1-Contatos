@@ -7,11 +7,13 @@
         </a>
     </h1>
 
-<div class="search">
-    <form action="" method="get">
-        <input type="text" placeholder="Search" name="q">
-    </form>
+    <div class="search">
+        <form action="{% url 'contact:search' %}" method="GET">
 
+          <input type="search" placeholder="Search" name="q">
+       
+        </form>
+    </div>
 
 </div>
 </header>
